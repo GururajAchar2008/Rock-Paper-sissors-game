@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color:inset;
+}
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height:65%;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-align:center;
+}
+.container h1{
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    color:white;
+}
+h2{
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #3b94f3;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+h4{
+    color: #555;
+    margin-bottom: 20px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    transform: scale(0.9);
+    transition: all 0.1s ease;
+}
+h4 h2{
+    display: inline;
+    color: #ff0000;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/* loading animation */
+#loader {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.spinner {
+    position: relative;
+    left: 50%;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
