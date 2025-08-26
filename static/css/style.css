@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 .container{
-    height:65%;
+    height:70%;
     width: 50%;
     background-color: #fff;
     padding: 20px;
@@ -103,4 +103,5 @@ a{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
 
