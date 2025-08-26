@@ -105,4 +105,29 @@ a{
 }
 
 
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    button {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        font-size: 1rem;
+    }
+}
+
+
+
 
