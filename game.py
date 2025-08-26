@@ -31,5 +31,6 @@ def play(choice):
     return render_template('result.html', user_choice=user_choice, computer_choice=computer_choice, result=result)
 
 if __name__ == '__main__':
-    app.run(debug=True host="0.0.0.0")
+    app.run(debug=True, host="0.0.0.0")
+
 
